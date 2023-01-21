@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LampeAuto</string>
+    <string name="bts_sn">BTS SN</string>
+    <string name="go">GO</string>
+    <string name="imagesembat">imagesembat</string>
+    <string name="etat">Etat</string>
+    <string name="Luminosite">luminosite</string>
+    <string name="on_off">ON-OFF</string>
+    <string name="lampe_auto">Lampe Auto</string>
+    <string name="bousole">bousole</string>
+    <string name="lampe_torche_et_bousole">Lampe torche et bousole</string>
+</resources>

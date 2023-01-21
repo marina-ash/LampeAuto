@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SensorActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/activity_toolbar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gris"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/vert"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:text="@string/lampe_auto"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+
+        <Switch
+            android:id="@+id/switchFlashLight"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:background="@color/orange"
+            android:gravity="center"
+            android:text="@string/on_off"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            >
+
+
+            <TextView
+                android:id="@+id/etat"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/vert"
+                android:text="@string/etat"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+
+
+            <TextView
+                android:id="@+id/luminosite"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/vert"
+                android:text="@string/Luminosite"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+            <Button
+                android:id="@+id/bousole"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/vert"
+                android:text="@string/bousole"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
